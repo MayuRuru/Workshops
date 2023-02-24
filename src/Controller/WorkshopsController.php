@@ -142,24 +142,4 @@ class WorkshopsController extends AbstractController
         } 
 }
 
-        // $repo = $this->entitymanager->getRepository(Workshop::class);
-
-        // REPO METHODS:
-       // findAll() - SELECT * FROM workshops;
-       // $workshops = $repo->findAll();
-
-       // find() - SELECT * from workshops WHERE id = 5;
-       // $workshops = $repo->find(5);
-
-       // findBy() - SELECT * from workshops ORDER BY id DESC
-       // $workshops = $repo->findBy([],['id' => 'DESC']);
-
-       // count() - SELECT COUNT() from workshops WHERE id=5
-       // count(['id' => 5]); => total of rows (with the condition)
-
-       // getClassName(); ===> interact with the Entity
-
-        // findOneBy() - SELECT * FROM workshops WHERE id = 6 AND title='TDD katas' ORDER BY id DESC
-        // $workshops = $repo->findOneBy(['id' => 2, 'title' => 'TDD katas'],['id'=>'DESC']);
-
-        //dd($workshops);
+//dd($workshops);
