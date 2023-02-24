@@ -1,0 +1,38 @@
+
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+.env
+###< symfony/framework-bundle ###
+
+###> symfony/webpack-encore-bundle ###
+/node_modules/
+/public/build/
+npm-debug.log
+yarn-error.log
+###< symfony/webpack-encore-bundle ###
+
+/var/cache/*
+/var/logs/*
+/var/sessions/*
+!var/cache/.gitkeep
+!var/logs/.gitkeep
+!var/sessions/.gitkeep
+/var/log/*
+!var/log/.gitkeep
+/app/config/parameters.yml
+/app/config/parameters.ini
+/bin/*
+!bin/console
+!bin/symfony_requirements
+/vendor/
+
+/build/
+
+# Backup entities generated with doctrine:generate:entities command
+**/Entity/*~
